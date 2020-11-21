@@ -1,11 +1,11 @@
 import express from "express";
+import {SERVER_PORT} from "./config/config";
+import routes from "./routes";
 
 const app = express();
 
-app.get('/', (req, res) => {
-    console.log(req, res);
-});
+routes(app);
 
-app.listen(5000, () => {
+app.listen(SERVER_PORT, () => {
     console.log('server is running on port 5000.');
 });

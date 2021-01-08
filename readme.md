@@ -10,9 +10,11 @@ All movie ids represent the tmdb (https://themoviedb.org) internal movie ids.
 
 ## JSON API
 
-Response scheme:
+### Response scheme:
 
 ``{status: number, message: string, payload: any}`` 
+
+### Routes
 
 ``GET /likes``
 

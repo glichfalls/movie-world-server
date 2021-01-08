@@ -42,7 +42,7 @@ Possible status codes:
 - 409: movie is already liked
 - 500: error
 
-``/movie/:movie_id/like``
+``DELETE /movie/:movie_id/like``
 
 deletes the like of the sent movie id.
 
